@@ -1,4 +1,4 @@
-# BalanceTonMichel 
+# BDE Enigma Backend
 
 It's a NodeJS API project written in TypeScript.
 
@@ -10,14 +10,14 @@ You will need some tools in order to get it :
 
 
 ```shell
-git clone https://github.com/bcatouillard/BalanceTonMichel-API
+git clone https://github.com/bcatouillard/Back-BDE
 npm i
 ```
 
 When it's running you can access endpoints :
 
-- /violences/get
-- /violences/getBy
+- /event/get
+- /event/new
 
 ### Initial Configuration
 
