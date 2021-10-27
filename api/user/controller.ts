@@ -59,10 +59,10 @@ const UserController = {
                         expiresIn: expireIn
                     });
 
-                    res.header('Authorization', 'Bearer ' + token).status(200).send({ success: true, user: { username: foundUser.username, role: foundUser.role }, token: token});
+                    res.header('Authorization', 'Bearer ' + token).status(200).send({ success: true, user: { username: foundUser.username, role: foundUser.role }, token});
                 }
             })
-            
+
         } catch (error) {
             res.status(400).send({success: false, error});
         }
